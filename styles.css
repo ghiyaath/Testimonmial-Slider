@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://i.pinimg.com/originals/55/80/ce/5580cef1b9b5c97063193ddd4ec64882.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  #slider {
+    margin-top: 15%;
+  }
+  
+  .img-area {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .content-area {
+    background: rgba(0, 38, 255, 0.87);
+    box-shadow: 0 8px 32px 0 rgb(255, 0, 0);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: medium;
+  }
+  
+  .img-area img {
+    width: 50%;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 40px;
+    color: rgb(7, 7, 7);
+    border-radius: 25px;
+    font-size: medium;
+  }
+  
+  .content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .content h4 {
+    font-size: 15px;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: gray;
+  }
+  
+  .content p {
+    line-height: 1.9;
+  }
+  
+  .socials {
+    margin-top: 30px;
+  }
+  
+  .socials i {
+    font-size: 20px;
+    margin: 0 10px;
+  }
